@@ -1,0 +1,5 @@
+<view>
+    <image mode="center" src="{{movie.image}}"></image>
+    <view>{{movie.title}}</view>
+    <view>评分: {{movie.average}}</view>
+</view>

@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "page/index/index",
+    "page/detail/detail"
+  ],
+  "window": {
+    "navigationBarTitleText": "豆瓣电影Top250",
+    "navigationBarTextStyle": "white"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

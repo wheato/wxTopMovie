@@ -1,0 +1,32 @@
+
+.list-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.movie-item{
+    width: 180rpx;
+    flex: 1;
+    margin: 30rpx 30rpx 0;
+    text-align: center;
+}
+.movie-cover{
+    width: 180rpx;
+    height: 270rpx;
+}
+.movie-title{
+    font-size: 28rpx;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 180rpx;
+    display: block;
+}
+.movie-rating{
+    font-size: 24rpx;
+}
+
+
