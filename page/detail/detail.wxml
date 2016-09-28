@@ -1,5 +1,9 @@
-<view>
-    <image mode="center" src="{{movie.image}}"></image>
+
+<view class="detail-wrap">
+    <loading hidden="{{hidden}}">
+        加载中...
+    </loading>
+    <image mode="aspectFit" src="{{movie.image}}" class="detail-movie-cover"></image>
     <view>{{movie.title}}</view>
-    <view>评分: {{movie.average}}</view>
+    <view wx:if="{{movie.average}}">评分: {{movie.average}}</view>
 </view>

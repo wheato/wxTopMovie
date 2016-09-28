@@ -10,7 +10,7 @@
                 <view wx:for="{{listData}}" class="movie-item" data-id="{{item.id}}" bindtap="viewTap">
                     <image src="{{item.images.medium}}" class="movie-cover" mode="center"></image>
                     <text class="movie-title">{{item.title}}</text>
-                    <text class="movie-rating">评分: {{item.rating.average}}</text>
+                    <text class="movie-rating" wx:if="{{item.rating.average}}">{{'评分:' + item.rating.average}}</text>
                 </view>
             </view>
 
