@@ -7,3 +7,6 @@
 * 列表页
 * 详情页
 
+## 其他
+
+API地址: [https://developers.douban.com/wiki/?title=api_v2](https://developers.douban.com/wiki/?title=api_v2)
